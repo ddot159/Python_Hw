@@ -7,9 +7,10 @@ def calculate_time(func):
     def wrapper():
         time_earlier = time_earlier.time()
         func()
+        print(time_now - time_earlier)
     return wrapper
 
 @calculate_time
 def time():
     time_now = time_now.time()
-    print(time_now - time_earlier)
+    

@@ -18,20 +18,23 @@ def calculator(number1, number2, operator):
     integer_division = '//'
     power = '**'
     
+    output = 0
     if operator == addition:
-        print(number1 + number2)
+        output = number1 + number2
     elif operator == subtraction:
-        print(number1 - number2)
+        output = number1 - number2
     elif operator == multiplication:
-        print(number1 * number2)
+        output = number1 * number2
     elif operator == division:
-        print(number1 / number2)
+        output =number1 / number2
     elif operator == integer_division:
-        print(number1 // number2)
+        output = number1 // number2
     elif operator == power:
-        print(number1 ** number2)
+        output = number1 ** number2
     else: 
-        print(bool(0))
+        return bool(0)
+    print(output)
+
 
 	
 def input_output(x):
