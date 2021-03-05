@@ -32,7 +32,7 @@ def calculator(number1, number2, operator):
         print(number1 ** number2)
     else: 
         print(bool(0))
-    calculator(number1, number2, operator)
+calculator(number1, number2, operator)
 	
 def input_output(x):
     '''
@@ -44,5 +44,5 @@ def input_output(x):
     elif x == 'n':
         return
     print('do you wish to exit?')
-    input_output(x)
+input_output(x)
                                 
