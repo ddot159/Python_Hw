@@ -1,5 +1,5 @@
 def calculator(number1, number2, operator):
-    '''
+    """
     Calculator uses the following functions:
  
     addition (+),
@@ -10,13 +10,14 @@ def calculator(number1, number2, operator):
     power(**) operation
  
     If the operator is invalid, the program exits
-    '''
+    """
     addition = '+'
     subtraction = '-'
     multiplication = '*'
     division = '/'
     integer_division = '//'
     power = '**'
+    
     if operator == addition:
         print(number1 + number2)
     elif operator == subtraction:
@@ -30,7 +31,8 @@ def calculator(number1, number2, operator):
     elif operator == power:
         print(number1 ** number2)
     else: 
-        return
+        print(bool(0))
+    calculator()
 	
 def input_output(x):
     '''
@@ -41,5 +43,6 @@ def input_output(x):
         calculator()
     elif x == n:
         return
-print('do you wish to exit?')
+    print('do you wish to exit?')
+    input_output()
                                 
