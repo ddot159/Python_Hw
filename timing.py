@@ -6,7 +6,7 @@ def calculate_time(func):
     """
     def wrapper():
         time_earlier = time_earlier.time()
-        time()
+        func()
     return wrapper
 
 @calculate_time
