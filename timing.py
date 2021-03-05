@@ -6,11 +6,12 @@ def calculate_time(func):
     """
     def wrapper():
         time_earlier = time_earlier.time()
-        func()
+        time_now = time_now.time()
         print(time_now - time_earlier)
+        time_earlier = time_earlier.time()
     return wrapper
 
 @calculate_time
 def time():
-    time_now = time_now.time()
-    
+     time_sleep = time.sleep(2)
+     

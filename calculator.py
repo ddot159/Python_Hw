@@ -43,9 +43,9 @@ def input_output(x):
     '''
     print('do you wish to exit?')
     if x == 'y':
-        calculator(number1, number2, operator)
-    elif x == 'n':
         return
+    elif x == 'n':
+        calculator()
     print('do you wish to exit?')
 
                                 
