@@ -33,7 +33,7 @@ def calculator(number1, number2, operator):
         output = number1 ** number2
     else: 
         return bool(0)
-    print(output)
+    print(float(output))
 
 
 	
