@@ -32,17 +32,17 @@ def calculator(number1, number2, operator):
         print(number1 ** number2)
     else: 
         print(bool(0))
-    calculator()
+    calculator(number1, number2, operator)
 	
 def input_output(x):
     '''
     Asks if the user wishes to continue, if not, the program exits
     '''
     print('do you wish to exit?')
-    if x == y:
-        calculator()
-    elif x == n:
+    if x == 'y':
+        calculator(number1, number2, operator)
+    elif x == 'n':
         return
     print('do you wish to exit?')
-    input_output()
+    input_output(x)
                                 

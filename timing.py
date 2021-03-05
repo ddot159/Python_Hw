@@ -5,11 +5,11 @@ def calculate_time(func):
     compute the time
     """
     def wrapper():
-        time_earlier = time.time()
+        time_earlier = time_earlier.time()
         time()
     return wrapper
 
 @calculate_time
 def time():
-    time_now = time.time()
+    time_now = time_now.time()
     print(time_now - time_earlier)
