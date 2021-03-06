@@ -9,11 +9,11 @@ def calculate_apr(principal, interest_rate, years):
         return False
     elif interest_rate <= 0:
         return False
-    else:
+    elif years <=0:
         return False
-    
-    for i in range(years):
-        i = i + 1    
-        principal = (float(principal)*(1 + float(interest_rate)))**float(years)
-        return principal
+    else:
+        for i in range(years):
+            i = i + 1    
+            principal = (float(principal)*(1 + float(interest_rate)))**float(years)
+            return principal
     
