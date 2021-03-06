@@ -8,7 +8,7 @@ def calculate_time(func):
         x = time.time()
         func()
         y = time.time()
-        seconds = y - x
+        seconds = int(y - x)
         print('Total time {seconds}')
     return wrapper
 
