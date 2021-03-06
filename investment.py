@@ -12,7 +12,7 @@ def calculate_apr(principal, interest_rate, years):
     elif years <=0:
         return False
     else:
-        for i in range(years):
+        while i < years:
             i = i + 1    
             principal = (float(principal)*(1 + float(interest_rate)))**float(years)
             return principal
