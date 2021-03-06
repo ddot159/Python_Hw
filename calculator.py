@@ -1,7 +1,7 @@
-def calculator(number1, number2, operator):
+def calculator(number1, number2, operator):    
     """
     Calculator uses the following functions:
- 
+    
     addition (+),
     subtraction(-),
     multiplication(*)
@@ -32,7 +32,7 @@ def calculator(number1, number2, operator):
     elif operator == power:
         output = number1 ** number2
     else: 
-        return bool(0)
+        return False
     print(float(output))
 
 
@@ -45,7 +45,8 @@ def input_output(x):
     if x == 'y':
         return
     elif x == 'n':
-        calculator()
-    print('do you wish to exit?')
+        calculator(number1,number2,operation)
+    else:
+        print('do you wish to exit?')
 
                                 
