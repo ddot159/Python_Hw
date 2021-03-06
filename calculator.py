@@ -11,29 +11,22 @@ def calculator(number1, number2, operator):
  
     If the operator is invalid, the program exits
     """
-    addition = '+'
-    subtraction = '-'
-    multiplication = '*'
-    division = '/'
-    integer_division = '//'
-    power = '**'
-    
     output = 0
-    if operator == addition:
+    if operator == '+':
         output = number1 + number2
-    elif operator == subtraction:
+    elif operator == '-':
         output = number1 - number2
-    elif operator == multiplication:
+    elif operator == *:
         output = number1 * number2
-    elif operator == division:
+    elif operator == '/':
         output =number1 / number2
-    elif operator == integer_division:
+    elif operator == //:
         output = number1 // number2
-    elif operator == power:
+    elif operator == **:
         output = number1 ** number2
     else: 
         return False
-    print(float(output))
+    print(int(output))
 
 
 	
