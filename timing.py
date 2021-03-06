@@ -5,13 +5,13 @@ def calculate_time(func):
     compute the time
     """
     def wrapper():
-        x = int(time.time())
+        x = time.time()
         func()
-        y = int(time.time())
-        print('Total time {y-x}')
+        y = time.time()
+        print(f"Total time {int(y)-int(x)}")
     return wrapper
 
 @calculate_time
-def test_time():
+def time_sleep():
       time.sleep(2)
-test_time()     
+time_sleep()     
