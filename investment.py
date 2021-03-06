@@ -1,4 +1,4 @@
-def caluculate_apr(principal, interest_rate, years):
+def calculate_apr(principal, interest_rate, years):
     """
     Calculates the interest rate with years
     """

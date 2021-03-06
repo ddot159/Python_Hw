@@ -16,13 +16,13 @@ def calculator(number1, number2, operator):
         output = number1 + number2
     elif operator == '-':
         output = number1 - number2
-    elif operator == *:
+    elif operator == '*':
         output = number1 * number2
     elif operator == '/':
         output =number1 / number2
-    elif operator == //:
+    elif operator ==' //':
         output = number1 // number2
-    elif operator == **:
+    elif operator == '**':
         output = number1 ** number2
     else: 
         return False
@@ -42,4 +42,4 @@ def input_output(x):
     else:
         print('do you wish to exit?')
 
-                                
+                               
