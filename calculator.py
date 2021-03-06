@@ -15,7 +15,7 @@ def calculator(number1, number2, operator):
     if operator == '+': 
         output = number1 + number2
         return float(output)  
-	elif operator == '-':
+    elif operator == '-':
         output = number1 - number2
         return float(output)
     elif operator == '*':
@@ -49,7 +49,7 @@ def input_output():
         
         exit = ('Do you wish to exit? ')
         
-        if exit == y
+        if exit == y:
              break  #breaks the loop
         
         
