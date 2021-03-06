@@ -8,10 +8,11 @@ def calculate_time(func):
         x = time.time()
         func()
         y = time.time()
-        print('Total time {y - x}')
+        seconds = y - x
+        print('Total time {seconds}')
     return wrapper
 
 @calculate_time
-def time_sleep():
+def test_time():
       time.sleep(2)
-time_sleep()     
+test_time()     
