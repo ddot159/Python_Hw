@@ -13,20 +13,26 @@ def calculator(number1, number2, operator):
     """
     output = 0
     if operator == '+':
-        output = float(number1) + float(number2)
+        output = number1 + number2
+        return float(output)
     elif operator == '-':
         output = number1 - number2
+        return float(output)
     elif operator == '*':
-        output = number1 * float number2
+        output = number1 * number2
+        return float(output)
     elif operator == '/':
         output = number1 / number2
+        return float(output)
     elif operator == '//':
         output = number1 // number2
+        return float(output)
     elif operator == '**':
         output = number1 ** number2
+        return float(output)
     else: 
         return False
-    print(float(output))
+    
 
 
 	
