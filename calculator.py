@@ -15,18 +15,18 @@ def calculator(number1, number2, operator):
     if operator == '+':
         output = float(number1) + float(number2)
     elif operator == '-':
-        output = float(number1) - float(number2)
+        output = number1 - number2
     elif operator == '*':
-        output = float(number1) * float(number2)
+        output = number1 * float number2
     elif operator == '/':
-        output =float(number1) /float(number2)
-    elif operator ==' //':
-        output =float(number1) // float(number2)
+        output = number1 / number2
+    elif operator == '//':
+        output = number1 // number2
     elif operator == '**':
-        output = float(number1) ** float(number2)
+        output = number1 ** number2
     else: 
         return False
-    print(output)
+    print(float(output))
 
 
 	

@@ -8,7 +8,7 @@ def calculate_time(func):
         time_earlier = time.time()
         func()
         time_now = time.time()
-        print('Total time' {int(time_now) - int(time_earlier)})
+        print('Total time'+ {int(time_now) - int(time_earlier)})
     return wrapper
 
 @calculate_time
